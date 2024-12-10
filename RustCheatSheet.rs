@@ -6,8 +6,8 @@ fn main() {
     */
 
     // Printing and String Substitutions
-    let some_obj: &str = "BAZ!";    // https://users.rust-lang.org/t/string-str-string-str/100611/4
-    println!("Hello, world!");      // prints the newline
+    let some_obj: &str = "BAZ!";   // https://users.rust-lang.org/t/string-str-string-str/100611/4
+    println!("Hello, world!");      // prints, then newline
     print!("Foo, ");                // prints, no new line
     println!("bar {}!", some_obj);  // now with string substitution
 
